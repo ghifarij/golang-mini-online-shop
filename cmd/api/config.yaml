@@ -3,6 +3,9 @@
 app:
   name: golang-mini-online-shop
   port: ":4000"
+  encryption:
+    salt: 10
+    jwt_secret: iniAdalahSecretToken
 
 db:
   host: localhost
